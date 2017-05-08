@@ -10,7 +10,8 @@ let loginInfo = {
   type:1,
   um:true,
   username:'webstudy616@163.com',
-  password:'996952c8ad4c22926136347df5a7a31f'
+  password:'996952c8ad4c22926136347df5a7a31f',
+  savelogin:1
 }
 
 let wordInfo = {
