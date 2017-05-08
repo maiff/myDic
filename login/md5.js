@@ -229,5 +229,5 @@ function bit_rol(d, a) {
   return d << a | d >>> 32 - a
 };
 
-
+console.log(hex_md5('2101239xwt'))
 module.exports = hex_md5
