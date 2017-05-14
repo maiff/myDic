@@ -16,8 +16,8 @@ describe('login', () => {
         username: 'webstudy616@163.com',
         password: '2101239xwt'
       })
-      // .expect('Content-Type', /json/)
-      // .expect(200)
+      .expect('Content-Type', /json/)
+      .expect(200)
       .end((err, res) => {
         if (err) return done(err)
         // console.log(res.text)

@@ -12,6 +12,9 @@ const request = require('superagent')
 // }
 module.exports = function (cookie, wordInfo) {
   addHeader.Cookie = cookie + ''
+  wordInfo.phonetic ? null : wordInfo.phonetic = ''
+  wordInfo.desc ? null : wordInfo.desc = ''
+  wordInfo.tags ? null : wordInfo.tags = ''
   return new Promise((resolve, reject) => {
     request
       .post('http://dict.youdao.com/wordbook/wordlist?action=add')

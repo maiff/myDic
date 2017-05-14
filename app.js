@@ -10,6 +10,9 @@ app.use(allowAll())
 const login = require('./router/login')
 app.use('/login', login)
 
+const add = require('./router/add')
+app.use('/add', add)
+
 app.listen(port, () => {
   console.log(`listen on ${port}`)
 })

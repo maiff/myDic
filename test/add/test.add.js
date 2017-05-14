@@ -5,7 +5,7 @@ const assert = require('assert')
 describe('add', function () {
   it('success', function (done) {
     login('webstudy616@163.com', '2101239xwt').then((cookie) => {
-      return add(cookie, {
+      return add(cookie + '', {
           word:'test' + new Date(),
           phonetic:'[test]',
           desc:`n. 试验；检验
@@ -15,7 +15,7 @@ describe('add', function () {
           tags:''
       })
     }).then((text) => {
-      console.log(text)
+      // console.log(text)
       done()
     })
   })

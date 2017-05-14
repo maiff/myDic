@@ -16,7 +16,6 @@ let loginInfo = {
   savelogin: 1
 }
 module.exports = function (username, password) {
-  console.log(password)
   loginInfo.username = username
   loginInfo.password = hexMmd5(password)
   // console.log(loginInfo)
