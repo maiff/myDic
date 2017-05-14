@@ -9,6 +9,10 @@
   "author": "maiff",
   "license": "ISC",
   "dependencies": {
-    "superagent": "^3.5.2"
+    "body-parser": "^1.17.1",
+    "finalhandler": "^1.0.2",
+    "parseurl": "^1.3.1",
+    "superagent": "^3.5.2",
+    "supertest": "^3.0.0"
   }
 }
